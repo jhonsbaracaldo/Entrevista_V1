@@ -1,0 +1,31 @@
+# 5 Conceptos que pueden preguntar en una ENTREVISTA para desarrollador Junior
+
+1 # ¿Que son los principios SOLID y para que sirven?
+   En mis palabra rapidas
+   son los principios fundamentales para la contruscion de un codigo ,se puede decir que son reglas
+   que permiten hacer que un codigo sea limpio , flexible y escalable
+
+2 #¿Que es programacion orientada objecto (POO)?
+  En mis palabras rapidas
+  Es un paradigna que como lo indica permite compartir objectos entre diferentes clases y metodos
+  interactuando a traves de mensajes (instancias, extenciones, implementos, etc).Siendo modular y reutilizable
+
+3 # ¿Que es Git?
+  En mis palabras rapidas
+  Es un sistema de control de versiones , permite el rastreo de mis cambios y va de la mano con Github
+
+4 # ¿Que es Github?
+     En mis palabras rapidas
+     Es un repositorio  en la nube que me permite alojar codigo de cualquier tipo, consultarlo y descargarlo cuando yo quiera.
+
+ 5# Indiqueme el comando para crear una rama de trabajo en github, el comando para borrarla  y adional  si acaban de realizar un cambio
+    en el repositorio padre y usted necesita actualizar su proyecto que comando debe utilizar.
+
+    git checkout -b "nombre de la rama" : para crea la rama -> para consultar si se creo git branch
+    git chekout -d "nombre de la rama" : -d de delete , borra la rama-> consultar si se eliimino git log o git branch
+    git pull origin main o depende el nombre de la rama master -> esto permite realizar la actualizacion a su repositorio local (equipo)
+
+    Plus recuerde que git tambien tiene una sintaxis para subir modulos funcionable, modificacion de fallas y versiones.
+    Feat : nueva caracteristica -> puedes utilizarlo en los comentarios de los commit
+    Fix : correcion de error
+    git tag v1.0 -> indicando que esta es la version 1 de nuestro programa
